@@ -1,7 +1,7 @@
 # Direct Download Link to Sir's Class Slides and PDFs
 
 ## [Download Link to all Sir's Notes in RAR File](https://drive.google.com/file/d/1ejiZvVhxGZz2ZzTEq5FnQGt47wZfiyQg/view?usp=sharing) 
-## [Download Link to all Sir's Project in 7Z File](https://drive.google.com/file/d/1nh2dj8AKs0ebrE0XYtaVK6C-lIlsCP6d/view?usp=sharing) 
+## [Download Link to all Sir's Projects in 7Z File](https://drive.google.com/file/d/1nh2dj8AKs0ebrE0XYtaVK6C-lIlsCP6d/view?usp=sharing) 
 
 * ### [Unit 1 - Language Preliminaries](https://github.com/WilcyWilson/NCC-Notes/raw/main/Unit%201%20-%20Language%20Preliminaries.pdf) 
 * ### [Unit 2: Introduction to ASP.NET](https://github.com/WilcyWilson/NCC-Notes/raw/main/Unit%202%20-%20Into%20to%20ASP.NET.pdf) 
