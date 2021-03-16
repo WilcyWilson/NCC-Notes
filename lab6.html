@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Append child in another div</title>
+<script>
+
+function addfields()
+{
+//alert('input');
+var inputbox=document.createElement('input');
+document.getElementById('target1').appendChild(inputbox);
+var btn=document.createElement('button');
+var t = document.createTextNode("CLICK ME");
+var brk=document.createElement('br');
+btn.appendChild(t);
+document.getElementById('target1').appendChild(btn);
+document.getElementById('target1').appendChild(brk);
+}
+
+
+</script>
+</head>
+<body>
+<span id="first">
+<h1 id="hello" style="background-color:#fcfc;">hello</h1>
+<h1 style="background-color:#cfc;">next hello</h1>
+</span>
+<span id="target">
+</span>
+<span id="target1">
+</span>
+<input type="button" value="Add Fields" onClick="addfields()"/>
+
+</body>
+</html>

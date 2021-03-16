@@ -1,0 +1,18 @@
+<div id="mydiv">
+
+<p id="two">testing testing</p>
+<input type="button" value="change" onClick="go()"/>
+</div>
+<script>
+
+function go()
+{
+
+var mylink=document.getElementById("mydiv");
+//alert(parent.nodeName);
+var txt=document.createTextNode("hey its new text");
+document.getElementById('mydiv').appendChild(txt);
+var myfirstlink=mylink.childNodes[0].nextSibling.childNodes[0];
+alert(myfirstlink);
+}
+</script>

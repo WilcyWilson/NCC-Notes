@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Append child in another div</title>
+<script>
+function change()
+{
+document.getElementById('target').appendChild(document.getElementById('hello'));
+}
+
+</script>
+</head>
+<body>
+<span id="first">
+<h1 id="hello" style="background-color:#fcfc;">hello</h1>
+<h1 style="background-color:#cfc;">next hello</h1>
+</span>
+<span id="target">
+</span>
+
+<input type="button" value="change" onClick="change()"/>
+
+</body>
+</html>

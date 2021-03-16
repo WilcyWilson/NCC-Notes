@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Show and hide</title>
+<a href="javascript:showhide(document.getElementById('adiv'))">show/hide</a>
+<script>
+function showhide(which)
+{
+//alert('a');
+if(!document.getElementById)
+return
+if (which.style.display=="block")
+//alert('a');
+which.style.display="none";
+//alert(which.style.display);
+else
+//alert(which.style.display);
+which.style.display="block";
+}
+</script>
+</head>
+<body>
+<div id="mydiv">show/hide elements</div>
+
+<div id="adiv" style="font:24px bold; display:block">Now you can see me</div>
+</body>
+</html>

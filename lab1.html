@@ -1,0 +1,23 @@
+<div id="mydiv">
+<p id="p1">This is paragraph one.</p>
+<p id="p2">This is paragraph two.</p>
+<p id="p3">This is paragraph three.</p>
+<input type="button" value="change" onClick="change()"/>
+</div>
+<script>
+
+function change()
+{
+
+var child=document.getElementById('p1');
+var parent=child.parentNode;
+alert(parent);
+parent.style.color="blue";
+var par2=document.getElementById('p2');
+var sibling=par2.nextElementSibling;
+sibling.style.color="green";
+var par3=document.getElementById('p3');
+var sibling=par3.previousElementSibling;
+sibling.style.color="red";
+}
+</script>

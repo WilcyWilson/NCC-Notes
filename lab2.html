@@ -1,0 +1,22 @@
+<div id="mydiv">
+<ul>
+<li id="l1">This is paragraph one.</li>
+<p id="l2">This is paragraph two.</li>
+<p id="l3">This is paragraph three.</li>
+</ul>
+<p id="two">testing testing</p>
+<input type="button" value="change" onClick="change()"/>
+</div>
+<script>
+
+function change()
+{
+
+var parent=document.childNodes[0];
+//alert(parent.nodeName);
+var child=parent.childNodes[0].childNodes[0];
+//alert("asdfas");
+var x=prompt("Enter string:","default");
+document.getElementById('two').innerHTML=x;
+}
+</script>
