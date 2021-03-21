@@ -1,6 +1,7 @@
 # Direct Download Link to Sir's Class Slides and PDFs
 
 ## Steps of Web Deployment
+[Steps of Web Deployment](StepsOfWebDeployment.jpg)
 
 ## [Download Link to all Sir's Notes in RAR File](https://drive.google.com/file/d/1ejiZvVhxGZz2ZzTEq5FnQGt47wZfiyQg/view?usp=sharing) 
 ## [Download Link to all Sir's Projects in 7Z File](https://drive.google.com/file/d/1nh2dj8AKs0ebrE0XYtaVK6C-lIlsCP6d/view?usp=sharing) 
